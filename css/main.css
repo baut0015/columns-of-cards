@@ -1,0 +1,110 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  background-color: white;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+  padding: 0 1.75em 1em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: .75em 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0;
+}
+
+.names {
+  font-style: italic;
+  margin: 0;
+  font-size: .875rem;
+}
+
+.cards {
+  padding: 0;
+  margin: auto;
+  display: flex;
+}
+
+.cards li {
+  padding: .75em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  list-style-type: none;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+}
+
+.card2 {
+  background-color: #ccc;
+}
+
+.card3 {
+  background-color: #aaa;
+}
+
+.card4 {
+  background-color: #999;
+}
+
+.text {
+  margin: .75em 0 1.5rem;
+  flex-grow: 1;
+}
+
+.images {
+  width: 25%;
+  margin: 0 0 1.5rem;
+  align-self: center;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.btn {
+  display: inline-block;
+  font-size: .875rem;
+  background-color: #333;
+  color: #f2f2f2;
+  border-radius: 10px;
+  padding: .75em 1em;
+  margin-top: 1.8em;
+}
+
+.btn-small {
+  display: inline-block;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
